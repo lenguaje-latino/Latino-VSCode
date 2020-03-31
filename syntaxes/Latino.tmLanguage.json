@@ -1,0 +1,77 @@
+{
+  "name": "Latino",
+  "scopeName": "source.latino",
+  "fileTypes": [
+    "lat"
+  ],
+  "foldingStartMarker": "(\\{\\s*(\/\/.*)?$|^\\s*\/\/ \\{\\{\\{)",
+  "foldingStopMarker": "^\\s*(\\}|\/\/ \\}\\}\\}$)",
+  "patterns": [
+    {
+      "begin": "\\/*",
+      "end": "\\*/",
+      "name": "comment.block.Latino",
+      "patterns": [
+        {
+          "match": "."
+        }
+      ]
+    },
+    {
+      "comment": "Comentario iniciando con #",
+      "match": "#.*$",
+      "name": "comment.line.number-sign.Latino"
+    },
+    {
+      "comment": "Comentario iniciando con --",
+      "match": "\\/\\/.*$",
+      "name": "comment.line.Latino"
+    },
+    {
+      "comment": "Single quoted string",
+      "match": "('(?:\\\\'|.)*?')",
+      "name": "string.single.Latino"
+    },
+    {
+      "comment": "Double quoted string",
+      "match": "(\\\"(?:\\\\\"|.)*?\\\")",
+      "name": "string.double.Latino"
+    },
+    {
+      "comment": "Operadores",
+      "match": "(?i)(-|+|*|%|^|\\/|<|>|<=|>=|!=|&|\\||)",
+      //  "(?i)(=|!=|\\+|-|/|<|>|,|(\\s(or|is|mod|not)(?=(\\s|$))))",
+      "name": "keyword.operator.Latino"
+    },
+    {
+      "comment": "Constantes del Lenguaje",
+      "match": "\\b(?i)(caso|defecto|otro|desde|elegir|fin|funcion|fun|global|hasta|mientras|repetir|regresar|retornar|ret|romper|si|sino|osi)\\b",
+      "name": "constant.language.Latino"
+    },
+    {
+      "comment": "Constantes Buleanos",
+      "match": "\\b(?i)(cierto|verdadero|falso|nulo)\\b",
+      "name": "constant.boolean.Latino"
+    },
+    {
+      "comment": "Constantes Builtin",
+      "match": "\\b(?i)(poner|escribir|imprimir|leer)\\b",
+      "name": "constant.builtin.Latino"
+    },
+    {
+      "comment": "Constantes Numericas",
+      "match": "(?<!\\w)((0(x|X)[0-9a-fA-F]+)|([0-9]+(\\.[0-9]+)?))",
+      "name": "constant.numeric.Latino"
+    },
+    // {
+    //   "comment": "Funciones del Sistema",
+    //   "match": "\\b(FGL_DRAWBOX|FGL_DYNARR_EXTENTSIZE|FGL_GETKEY|FGL_ISDYNARR_ALLOCATED|FGL_SCR_SIZE|FGL_SETCURRLINE|LENGTH|ORD|SHOWHELP)\\b",
+    //   "name":"keyword.other"
+    // },
+    {
+      "comment": "Funciones Extras",
+      "match": "(?i)((?<=\\s)(p_open|p_close)(?=\\s*\\(.*?\\)))",
+      "name":"support.function.Latino"
+    }
+  ]
+}
