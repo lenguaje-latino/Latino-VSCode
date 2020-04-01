@@ -1,52 +1,36 @@
 {
-    "name": "Latino-VS",
-    "displayName": "Lenguaje Latino",
-    "description": "Sintaxis de Latino para VS Code",
-    "icon": "images/Latino-Logo.png",
-    "version": "1.0",
-    "publisher": "MelvinGuerrero",
-    "author": {
-        "name": "Melvin Guerrero",
-        "email": "melvin_guerrero@yahoo.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/MelvinG24/Latino-VS"
-    },
-    "keywords": [
-        "Latino",
-        "sintax",
-    ],
-    "engines": {
-        "vscode": "^1.18.0"
-    },
-    "categories": [
-        "Languages",
-        "Snippets"
-    ],
+    "name": "latino-vscode",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "1.0.0",
+	"publisher": "Melvin_Guerrero",
+	"license": "MIT",
+    "engines": { "vscode": "*" },
+    "icon": "https://github.com/MelvinG24/Latino-VS/blob/master/images/Latino-Logo.png",
     "contributes": {
-        "languages": [{
-            "id": "Latino",
-            "aliases": ["Latino", "Latino-VS"],
-            "extensions": [".lat"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "Latino",
-            "scopeName": "source.latino",
-            "path": "./syntaxes/Latino.tmLanguage.json"
-        }],
-        "snippets": [
+        "languages":
+        [
             {
-                "language": "Latino",
-                "path": "./snippets/snippets.json"
+                "id": "latino",
+                "extensions": [".lat"],
+                "aliases": ["Latino", "latino"],
+                "configuration": "./language-configuration.json"
             }
         ],
-        "configurationDefaults": {
-            "[lat]": {
-                "files.encoding": "cp437",
-                "files.insertFinalNewline": true
+        "grammars":
+        [
+            {
+                "language": "latino",
+                "scopeName": "source.latino",
+                "path": "./syntaxes/latino.tmLanguage.json"
             }
-        }
+        ],
+        "snippets":
+        [
+            {
+                "language": "latino",
+                "path": "./snippets/latino.snippets.json"
+            }
+        ]
     }
 }

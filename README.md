@@ -68,4 +68,8 @@ Cualquier error lo puedes reportar en: https://github.com/MelvinG24/Latino-VS/is
 # Documentación Latino
 Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación en el siguiente enlace: https://manuallatino.blogspot.com
 
+## License
+
+[MIT](LICENSE)
+
 -----------------------------------------------------------------------------------------------------------
