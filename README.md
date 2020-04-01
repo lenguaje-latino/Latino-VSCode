@@ -1,5 +1,5 @@
-# Sintaxis de Lenguaje Latino para VS Code
-Esta es la extensión oficial de Latino en Visual Studio Code.
+# Latino-VSCode
+La extension oficial de Latino para Visual Studio Code
 
 ## Caracteristicas
 * Resaltado de sintaxis de Latino (Syntax highlighting)
