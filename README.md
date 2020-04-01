@@ -36,31 +36,7 @@ En TextMate para usar los snippets, escribimos el desencadenador deseado y presi
 | imp            | imprimir                                | imprimir("mensaje")                             |
 | inc            | incluir                                 | incluir "modulo"                                |
 
-
-
-
-
-
-### SQL
-
-| Snippet                      | Proposito                    |
-|------------------------------|----------------------------|
-| `select`                     | Genera la estructura para un Select |
-| `select into`                | Genera la estructura para un Select guardando los resultados en variables |
-| `insert`                     | Genera la estructura para un Insert |
-| `update`                     | Genera la estructura para un Update |
-| `delete`                     | Genera la estructura para un Delete |
-| `alter`                      | Genera la estructura para un Alter |
-
-Alternativamente, presione `Ctrl` +` Space` (Windows, Linux) o `Cmd` +` Space` (OSX) para activar los snippets desde el editor.
-
-# Instalacion
-1. Instale Visual Studio Code 1.20 o superior
-1. Inicie Code
-1. Desde la paleta de comandos `Ctrl`-`Shift`-`P` (Windows, Linux) o `Cmd`-`Shift`-`P` (OSX)
-1. Seleccione `Install Extension`
-1. Elija la extension `Latino-VS`
-1. Recargue Visual Studio Code
+>Alternativamente, presione `Ctrl` +` Space` (Windows, Linux) o `Cmd` +` Space` (OSX) para activar los snippets desde el editor.
 
 # Reporte de errores
 Cualquier error lo puedes reportar en: https://github.com/MelvinG24/Latino-VS/issues
