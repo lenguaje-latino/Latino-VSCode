@@ -7,7 +7,6 @@ Esta es la extensión oficial de Latino en Visual Studio Code.
 * Ejecutar código en Terminal o CMD en Windows (En Desarrollo)
 
 ## Requerimientos de extension
-* Visual Studio Code 1.20 o Superior
 * Se necesita tener Latino instalado para la función de "Ejecutar en la Terminal"
 
 # Funciones
