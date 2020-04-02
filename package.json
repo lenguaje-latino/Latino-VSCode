@@ -3,10 +3,29 @@
     "displayName": "%displayName%",
     "description": "%description%",
     "version": "1.0.0",
-	"publisher": "Melvin_Guerrero",
+	"publisher": "Melvin-Guerrero",
 	"license": "MIT",
     "engines": { "vscode": "*" },
-    "icon": "https://github.com/MelvinG24/Latino-VS/blob/master/images/Latino-Logo.png",
+    "icon": "images/Latino-Logo.png",
+    "categories":[
+        "Programming Languages",
+        "Language Packs",
+        "Snippets"
+    ],
+    "author": {"name": "Melvin Guerrero"},
+    "galleryBanner":{
+        "color": "#449eec",
+        "theme": "dark"
+    },
+    "bugs": {
+        "url": "https://github.com/MelvinG24/Latino-VSCode/issues",
+        "email": "melving24@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MelvinG24/Latino-VSCode.git"
+    },
+    "homepage": "https://github.com/MelvinG24/Latino-VSCode",
     "contributes": {
         "languages":
         [
@@ -14,7 +33,7 @@
                 "id": "latino",
                 "extensions": [".lat"],
                 "aliases": ["Latino", "latino"],
-                "configuration": "./language-configuration.json"
+                "configuration": "language-configuration.json"
             }
         ],
         "grammars":
@@ -22,14 +41,22 @@
             {
                 "language": "latino",
                 "scopeName": "source.latino",
-                "path": "./syntaxes/latino.tmLanguage.json"
+                "path": "syntaxes/latino2.tmLanguage.json"
             }
         ],
         "snippets":
         [
             {
                 "language": "latino",
-                "path": "./snippets/latino.snippets.json"
+                "path": "snippets/latino.snippets.json"
+            }
+        ],
+        "iconThemes":
+        [
+            {
+                "id": "latino",
+                "label": "Latino",
+                "path": "images/iconsFiles/latino-icon-theme.json"
             }
         ]
     }

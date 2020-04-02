@@ -2,7 +2,7 @@
     "Retorno": {
         "prefix": "ret",
         "body": [
-            "retorno ${1:valor}\n"
+            "retorno ${0:valor}\n"
         ],
         "description": "Comando: Retorno (Return)"
     },

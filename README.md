@@ -1,5 +1,5 @@
-# Latino-VSCode
-La extension oficial de Latino para Visual Studio Code
+# Sintaxis de Lenguaje Latino para VS Code
+Esta es la extensión oficial de Latino en Visual Studio Code.
 
 ## Caracteristicas
 * Resaltado de sintaxis de Latino (Syntax highlighting)
@@ -17,7 +17,7 @@ La extension oficial de Latino para Visual Studio Code
 
 
 # Fargmentos de código (snippets)
-En TextMate para usar los snippets, escribimos el desencadenador deseado y presionamos TAB.
+En VS Code para usar los snippets, escribimos el desencadenador deseado y presionamos TAB.
 
 ---
 | Desencadenador | Nombre                                  | codigo                                          |
@@ -40,11 +40,11 @@ En TextMate para usar los snippets, escribimos el desencadenador deseado y presi
 # Reporte de errores
 Cualquier error lo puedes reportar en: https://github.com/MelvinG24/Latino-VS/issues
 
-# Documentación Latino
-Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación en el siguiente enlace: https://manuallatino.blogspot.com
+# Documentación de Latino
+Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación oficial en el siguiente enlace: https://manuallatino.blogspot.com
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/MelvinG24/Latino-VSCode/blob/master/LICENSE)
 
 -----------------------------------------------------------------------------------------------------------

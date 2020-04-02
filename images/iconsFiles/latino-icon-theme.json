@@ -1,0 +1,38 @@
+{
+    "iconDefinitions": {
+        "fileExtensions": {
+            ".lat": "_lat_file"
+        },
+        "_file_light": {
+            "iconPath": "icons/Lenguaje_Latino-Icon.svg"
+		},
+        "_file_dark": {
+            "iconPath": "icons/Lenguaje_Latino-Icon.svg"
+        }
+    },
+	"file": "_file_dark",
+	"fileExtensions": {
+		// icons by file extension
+	},
+	"fileNames": {
+		// icons by file name
+	},
+	"languageIds": {
+		// icons by language id
+	},
+	"light": {
+		"file": "_file_light",
+		"fileExtensions": {
+			// icons by file extension
+		},
+		"fileNames": {
+			// icons by file name
+		},
+		"languageIds": {
+			// icons by language id
+		}
+	},
+	"highContrast": {
+		// overrides for high contrast
+	}
+}
