@@ -41,7 +41,7 @@
             {
                 "language": "latino",
                 "scopeName": "source.latino",
-                "path": "syntaxes/latino2.tmLanguage.json"
+                "path": "syntaxes/latino.tmLanguage.json"
             }
         ],
         "snippets":
