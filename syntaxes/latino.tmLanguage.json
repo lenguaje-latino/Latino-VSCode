@@ -113,29 +113,29 @@
                 "name": "punctuation.definition.comment.latino"
             }
         },
-        "match": "\\A(#!).*$\\n?",
-        "name": "comment.line.shebang.latino"
+        "match": "^[ \\t| +]#.*$|//.*$",
+        "name": "comment.line.number-sign.latino"
     }, {
-        "begin": "(^[ \\t]+)?(?=#)",
+        "begin": "(?#.*)",
         "beginCaptures": {
             "1": {
                 "name": "punctuation.whitespace.comment.leading.latino"
             }
         },
-        "end": "(?!\\G)((?!^)[ \\t]+\\n)?",
+        "end": "$",
         "endCaptures": {
             "1": {
                 "name": "punctuation.whitespace.comment.trailing.latino"
             }
         },
         "patterns": [{
-            "begin": "--\\[(=*)\\[",
+            "begin": "/\\*.*",
             "beginCaptures": {
                 "0": {
                     "name": "punctuation.definition.comment.begin.latino"
                 }
             },
-            "end": "\\]\\1\\]",
+            "end": "\\*/",
             "endCaptures": {
                 "0": {
                     "name": "punctuation.definition.comment.end.latino"
@@ -149,7 +149,7 @@
                     "name": "punctuation.definition.comment.latino"
                 }
             },
-            "end": "\\n",
+            "end": "$",
             "name": "comment.line.double-dash.latino"
         }]
     }, {
@@ -174,7 +174,7 @@
         "match": "(::)[a-zA-Z_][a-zA-Z0-9_]*(::)",
         "name": "constant.other.placeholder.latino"
     }, {
-        "match": "\\b(si|fin|sino|elegir|caso|defecto|repetir|desde|hasta|mientras|funcion|retorno|retornar|osi|fun|ret)\\b",
+        "match": "\\b(si|fin|sino|elegir|caso|defecto|repetir|desde|hasta|mientras|funcion|retorno|retornar|osi|fun|ret|global)\\b",
         "name": "keyword.control.latino"
     }, {
         "match": "(?<![^.]\\.|:)\\b(cierto|verdadero|falso|nulo)\\b|(?<![.])\\.{3}(?!\\.)",
@@ -186,19 +186,19 @@
         "match": "(?<![^.]\\.|:)\\b[a-zA-Z0-9_]\\b(?=\\s*(?:[({\"']|\\[\\[))",
         "name": "support.function.latino"
     }, {
-        "match": "(?<![^.]\\.|:)\\b(mate\\.(acos|asen|atan|cos|cosh|sen|senh|tan|tanh|exp|log|log10|raiz|techo|piso|abs|atan2|pot|frexp|ldexp|aleatorio)|sis\\.(dormir|ejecutar|pipe|fecha|salir|avisar|cwd|iraxy|tiempo|usuario)|cadena\\.(char|bytes|esta_vacia|longitud|minusculas|mayusculas|recortar|es_numerico|es_numero|es_alfa|invertir|ejecutar|concatenar|comparar|contiene|termina_con|es_igual|indice|encontrar|ultimo_indice|eliminar|separar|inicia_con|regex|match|insertar|rellenar_izquierda|rellenar_derecha|reemplazar|subcadena|formato)|paquete\\.(cargar)|lista\\.(invertir|agregar|extender|eliminar_indice|longitud|indice|encontrar|comparar|insertar|eliminar|contiene|concatenar|crear)|gc\\.(mostrar|limpiar)|archivo\\.(leer|lineas|ejecutar|poner|copiar|eliminar|crear|renombrar)|dic\\.(longitud|llaves|valores|vals))\\b(?=\\s*(?:[({\"']|\\[\\[))",
+        "match": "(?<![^.]\\.|:)\\w(mate\\.(acos|asen|atan|cos|cosh|sen|senh|tan|tanh|exp|log|log10|raiz|techo|piso|abs|atan2|pot|frexp|ldexp|aleatorio)|sis\\.(dormir|ejecutar|pipe|fecha|salir|avisar|cwd|iraxy|tiempo|usuario)|cadena\\.(char|bytes|esta_vacia|longitud|minusculas|mayusculas|recortar|es_numerico|es_numero|es_alfa|invertir|ejecutar|concatenar|comparar|contiene|termina_con|es_igual|indice|encontrar|ultimo_indice|eliminar|separar|inicia_con|regex|match|insertar|rellenar_izquierda|rellenar_derecha|reemplazar|subcadena|formato)|paquete\\.(cargar)|lista\\.(invertir|agregar|extender|eliminar_indice|longitud|indice|encontrar|comparar|insertar|eliminar|contiene|concatenar|crear)|gc\\.(mostrar|limpiar)|archivo\\.(leer|lineas|ejecutar|poner|copiar|eliminar|crear|renombrar)|dic\\.(longitud|llaves|valores|vals))\\b(?=\\s*(?:[({\"']|\\[\\[))",
         "name": "support.function.library.latino"
     }, {
         "match": "\\b(&&|\\|\\||!)\\b",
         "name": "keyword.operator.latino"
     }, {
-        "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b(?=\\s*(?:[({\"']|\\[\\[))",
+        "match": "\\b([A-Za-z_]\\w*)\\b(?=\\s*(?:[({\"']|\\[\\[))",
         "name": "support.function.any-method.latino"
     }, {
-        "match": "(?<=[^.]\\.|:)\\b([a-zA-Z_][a-zA-Z0-9_]*)",
+        "match": "(?<=[^.]\\.|:)\\b([a-zA-Z_][a-zA-Z0-9_]\\w*)",
         "name": "variable.other.latino"
     }, {
-        "match": "\\+|-|%|#|\\*|\\/|\\^|=?|~=|<=?|>=?|(?<!\\.)\\.{2}(?!\\.)",
+        "match": "\\+|-|%|\\*|\\/|\\^|=?|~=|<=?|>=?|(?<!\\.)\\.{2}(?!\\.)",
         "name": "keyword.operator.latino"
     }],
     "repository": {

@@ -1,7 +1,7 @@
 {
     "comments": {
         "lineComment": "//",
-        "numbreComment": "#",
+        "numberComment": "#",
         "blockComment": [ "/*", "*/" ]
     },
     "brackets": [
@@ -24,7 +24,7 @@
         ["'", "'"]
     ],
 	"indentationRules": {
-		"increaseIndentPattern": "^([^-]|-(?!-))*((\\b(si|sino|elegir|caso|defecto|mientras|repetir|desde|funcion|fun|osi)\\b((?!\\b(fin|hasta)\\b).)*)|(\\{\\s*))$",
-		"decreaseIndentPattern": "^\\s*(fin|sino|osi,?|\\}\\)?|\\]).*$"
+		"increaseIndentPattern": "\\b(caso|si|sino|elegir|defecto|mientras|repetir|desde|funcion|fun|osi)\\b((?!fin).)*$|\\{\\s*$",
+		"decreaseIndentPattern": "^\\s*(caso|fin|sino|osi,?|\\}\\)?).*$"
 	}
 }
