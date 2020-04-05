@@ -22,6 +22,27 @@
         }, {
             "name": "keyword.control.logic.latino",
             "match": "(&&|\\|\\||!)"
+        }, {
+            "name": "constant.language.latino",
+            "match": "\\+|-|\\*|\\/|%|\\^|<|>|\\=|\\.\\."
+        }, {
+            "name": "string.quote.latino",
+            "match": "\\b0x[a-f\\d]+\\.?[a-f\\d]*(?:p[+-]?\\d+)?\\b|\\b\\d+(?:\\.\\B|\\.?\\d*(?:e[+-]?\\d+)?\\b)|\\B\\.\\d+(?:e[+-]?\\d+)?\\b\\i"
+        }, {
+            "name": "keyword.control.latino",
+            "match": "\\b(incluir|retorno)\\b"
+        }, {
+            "name": "constant.language.latino",
+            "match": "\\b(escribir|imprimir|poner)\\b"
+        }, {
+            "name": "constant.language.latino",
+            "match": "(mate|sis|cadena|paquete|lista|gc|archivo|dic)\\."
+        }, {
+            "name": "constant.language.latino",
+            "match": "\\b(verdadero|falso|cierto|nulo)\\b"
+        }, {
+            "name": "keyword.control.latino",
+            "match": "(?!\\d)\\w+(?=\\s*(?:[({]))"
         }
     ]
 }
