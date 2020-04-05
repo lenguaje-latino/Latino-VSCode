@@ -36,7 +36,7 @@ En VS Code para usar los snippets, escribimos el desencadenador deseado y presio
 | esc            | escribir                                | escribir("mensaje")                             |
 | imp            | imprimir                                | imprimir("mensaje")                             |
 | inc            | incluir                                 | incluir "modulo"                                |
-| encabezado     | encabezado                              | Genera un encabezado de código comentado                               |
+| encabezado     | encabezado                              | genera un encabezado de código comentado                               |
 
 >Alternativamente, presione `Ctrl` +` Space` (Windows, Linux) o `Cmd` +` Space` (OSX) para activar los snippets desde el editor.
 
