@@ -1,6 +1,5 @@
-https://travis-ci.org/MelvinG24/Latino-VSCode.svg?branch=master
-https://img.shields.io/github/license/melving24/latino-vscode
-https://img.shields.io/github/package-json/v/melving24/latino-vscode
+![GitHub package.json version](https://img.shields.io/github/package-json/v/melving24/latino-vscode)
+![GitHub](https://img.shields.io/github/license/melving24/latino-vscode)
 
 # Sintaxis de Lenguaje Latino para VS Code
 Esta es la extensión oficial de Latino en Visual Studio Code.

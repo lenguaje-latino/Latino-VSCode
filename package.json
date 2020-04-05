@@ -3,7 +3,7 @@
     "displayName": "%displayName%",
     "description": "%description%",
     "version": "1.0.0",
-	"publisher": "Melvin-Guerrero",
+	"publisher": "MelvinGuerrero",
 	"license": "MIT",
     "engines": { "vscode": "*" },
     "icon": "images/Latino-Logo.png",
