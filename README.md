@@ -1,3 +1,5 @@
+![Image](https://github.com/melving24/latino-vscode/images/Latino-VSCodeInstall.gif)
+
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/melving24/latino-vscode)
 ![GitHub](https://img.shields.io/github/license/melving24/latino-vscode)
 
