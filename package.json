@@ -41,7 +41,7 @@
             {
                 "language": "latino",
                 "scopeName": "source.latino",
-                "path": "syntaxes/latino2.tmLanguage.json"
+                "path": "syntaxes/latino.tmLanguage.json"
             }
         ],
         "snippets":
@@ -49,14 +49,6 @@
             {
                 "language": "latino",
                 "path": "snippets/latino.snippets.json"
-            }
-        ],
-        "iconThemes":
-        [
-            {
-                "id": "latino",
-                "label": "Latino",
-                "path": "images/iconsFiles/latino-icon-theme.json"
             }
         ]
     }

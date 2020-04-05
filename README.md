@@ -1,10 +1,13 @@
+https://travis-ci.org/MelvinG24/Latino-VSCode.svg?branch=master
+https://img.shields.io/github/license/melving24/latino-vscode
+https://img.shields.io/github/package-json/v/melving24/latino-vscode
+
 # Sintaxis de Lenguaje Latino para VS Code
 Esta es la extensión oficial de Latino en Visual Studio Code.
 
 ## Caracteristicas
 * Resaltado de sintaxis de Latino (Syntax highlighting)
 * Snippets
-* Ejecutar código en Terminal o CMD en Windows (En Desarrollo)
 
 ## Requerimientos de extension
 * Se necesita tener Latino instalado para la función de "Ejecutar en la Terminal"
@@ -13,7 +16,7 @@ Esta es la extensión oficial de Latino en Visual Studio Code.
 ---
 | Acción         | Función                                                                                   |
 |----------------|-------------------------------------------------------------------------------------------|
-| Ctrl + R       | Ejecuta el código de Latino en la terminal (*Requiere primero guardar el archivo)         |
+| F5             | Ejecuta el código de Latino en la terminal (*Requiere primero guardar el archivo)         |
 
 
 # Fargmentos de código (snippets)
@@ -34,6 +37,7 @@ En VS Code para usar los snippets, escribimos el desencadenador deseado y presio
 | esc            | escribir                                | escribir("mensaje")                             |
 | imp            | imprimir                                | imprimir("mensaje")                             |
 | inc            | incluir                                 | incluir "modulo"                                |
+| encabezado     | encabezado                              | Genera un encabezado de código comentado                               |
 
 >Alternativamente, presione `Ctrl` +` Space` (Windows, Linux) o `Cmd` +` Space` (OSX) para activar los snippets desde el editor.
 
@@ -43,7 +47,16 @@ Cualquier error lo puedes reportar en: https://github.com/MelvinG24/Latino-VS/is
 # Documentación de Latino
 Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación oficial en el siguiente enlace: https://manuallatino.blogspot.com
 
-## License
+# Versiones y Actualizaciones
+Cambios y Actualizaciones.
+
+## [1.0.0] - 5-Abr-2020
+### Agregado
+- Primera Versión
+- Creación de la sintaxis básica de Latino en VS Code
+- Coloreado de sintaxis y snippets de Latino
+
+# License
 
 [MIT](https://github.com/MelvinG24/Latino-VSCode/blob/master/LICENSE)
 

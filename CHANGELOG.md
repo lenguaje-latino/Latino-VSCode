@@ -1,7 +1,7 @@
-# Registro de Cambios
+# Versiones y Actualizaciones
 Cambios y Actualizaciones.
 
-## [1.0.0] - 1-Abr-2020
+## [1.0.0] - 5-Abr-2020
 ### Agregado
 - Primera Versión
 - Creación de la sintaxis básica de Latino en VS Code
