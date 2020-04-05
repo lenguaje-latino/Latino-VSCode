@@ -1,4 +1,4 @@
-![Image](https://github.com/MelvinG24/Latino-VSCode/blob/master/images/Latino-VSCodeInstall.gif)
+![Image](https://github.com/MelvinG24/Latino-VSCode/blob/master/images/Latino-VSCodeInstall.gif?raw=true)
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/melving24/latino-vscode)
 ![GitHub](https://img.shields.io/github/license/melving24/latino-vscode)
