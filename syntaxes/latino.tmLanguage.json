@@ -1,8 +1,7 @@
 {
-	"information_for_contributors": ["This file has been converted from https://github.com/MelvinG24/Latino-TextMate/blob/master/Syntaxes/Latino.tmLanguage","If you want to provide a fix or improvement, please create a pull request against the original repository.","Once accepted there, we are happy to receive an update request."],
     "name": "Latino",
     "scopeName": "source.latino",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "patterns": [
         {
            "name": "comment.line.latino",

@@ -2,31 +2,51 @@
     "name": "latino-vscode",
     "displayName": "%displayName%",
     "description": "%description%",
-    "version": "1.0.0",
+    "version": "1.0.1",
 	"publisher": "MelvinGuerrero",
-	"license": "MIT",
-    "engines": { "vscode": "*" },
+    "license": "MIT",
+    "author": {
+		"email": "melvin_guerrero@yahoo.com",
+		"name": "Melvin Guerrero",
+		"url": "https://melvinguerrero.blogspot.com"
+	},
+    "engines": { "vscode": "^1.0.0" },
     "icon": "images/Latino-Logo.png",
     "categories":[
         "Programming Languages",
         "Language Packs",
         "Snippets"
     ],
-    "author": {"name": "Melvin Guerrero"},
+    "keywords": [
+		"latino",
+		"lenguaje",
+		"language"
+	],
     "galleryBanner":{
         "color": "#449eec",
         "theme": "dark"
     },
     "bugs": {
         "url": "https://github.com/MelvinG24/Latino-VSCode/issues",
-        "email": "melving24@gmail.com"
+        "email": "melvin_guerrero@yahoo.com"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/MelvinG24/Latino-VSCode.git"
     },
     "homepage": "https://github.com/MelvinG24/Latino-VSCode",
+    "activationEvents": ["*"],
+    "main": "images/iconsFiles/latino-icons.bundle.js",
     "contributes": {
+        "iconThemes":
+        [
+            {
+                "id": "latino",
+				"label": "Latino Icon",
+				"path": "images/iconsFiles/latino-icon-theme.json",
+				"_watch": true
+			}
+		],
         "languages":
         [
             {
