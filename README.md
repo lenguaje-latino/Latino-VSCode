@@ -1,4 +1,4 @@
-#Latino-VSCode
+# Latino-VSCode
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/melving24/latino-vscode)
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/MelvinGuerrero.latino-vscode)
 ![GitHub](https://img.shields.io/github/license/melving24/latino-vscode)
