@@ -58,4 +58,4 @@ Cambios y Actualizaciones.
 - Coloreado de sintaxis y snippets de Latino
 
 # License
-[MIT](https://github.com/MelvinG24/Latino-VSCode/blob/master/LICENSE)
+Licenciado bajo la licencia [MIT](https://github.com/MelvinG24/Latino-VSCode/blob/master/LICENSE)
