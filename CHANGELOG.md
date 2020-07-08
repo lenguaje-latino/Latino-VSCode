@@ -1,6 +1,17 @@
 # Versiones y Actualizaciones
 Cambios y Actualizaciones.
 
+## [1.0.1] - 5-Jul-2020
+### Agregado
+- Arreglos minimos de errores en la sintaxis
+- Incorporación de nuevas palabras reservadas
+  - imprimirf
+  - romper
+  - continuar
+  - otro
+  - error
+  - ret
+
 ## [1.0.0] - 5-Abr-2020
 ### Agregado
 - Primera Versión

@@ -3,25 +3,26 @@
     "displayName": "%displayName%",
     "description": "%description%",
     "version": "1.0.1",
-	"publisher": "MelvinGuerrero",
+    "publisher": "MelvinGuerrero",
     "license": "MIT",
     "author": {
-		"email": "melvin_guerrero@yahoo.com",
-		"name": "Melvin Guerrero",
-		"url": "https://melvinguerrero.blogspot.com"
-	},
+        "email": "melvin_guerrero@yahoo.com",
+        "name": "Melvin Guerrero",
+        "url": "https://melvinguerrero.blogspot.com"
+    },
     "engines": { "vscode": "^1.0.0" },
     "icon": "images/Latino-Logo.png",
     "categories":[
-        "Programming Languages",
+        "Debuggers",
         "Language Packs",
+        "Programming Languages",
         "Snippets"
     ],
     "keywords": [
-		"latino",
-		"lenguaje",
-		"language"
-	],
+        "latino",
+        "lenguaje",
+        "language"
+    ],
     "galleryBanner":{
         "color": "#449eec",
         "theme": "dark"
@@ -35,18 +36,15 @@
         "url": "https://github.com/MelvinG24/Latino-VSCode.git"
     },
     "homepage": "https://github.com/MelvinG24/Latino-VSCode",
-    "activationEvents": ["*"],
-    "main": "images/iconsFiles/latino-icons.bundle.js",
+    "activationEvents": [
+        "onLanguage:latino"
+    ],
+    "main": "./out/client/extension",
+    "scripts":{
+        "compile":"",
+        "vscode:uninstall": "node ./out/src/lifecycle"
+    },
     "contributes": {
-        "iconThemes":
-        [
-            {
-                "id": "latino",
-				"label": "Latino Icon",
-				"path": "images/iconsFiles/latino-icon-theme.json",
-				"_watch": true
-			}
-		],
         "languages":
         [
             {

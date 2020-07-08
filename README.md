@@ -46,10 +46,21 @@ En VS Code para usar los snippets, escribimos el desencadenador deseado y presio
 Cualquier error lo puedes reportar en: https://github.com/MelvinG24/Latino-VS/issues
 
 # Documentación de Latino
-Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación oficial en el siguiente enlace: https://manuallatino.blogspot.com
+Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación oficial en el siguiente enlace: https://manual-latino.readthedocs.io/es/latest/
 
 # Versiones y Actualizaciones
 Cambios y Actualizaciones.
+
+## [1.0.1] - 5-Jul-2020
+### Agregado
+- Arreglos minimos de errores en la sintaxis
+- Incorporación de nuevas palabras reservadas
+  - imprimirf
+  - romper
+  - continuar
+  - otro
+  - error
+  - ret
 
 ## [1.0.0] - 5-Abr-2020
 ### Agregado

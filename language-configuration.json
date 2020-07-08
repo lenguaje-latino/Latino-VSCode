@@ -24,7 +24,7 @@
         ["'", "'"]
     ],
 	"indentationRules": {
-		"increaseIndentPattern": "\\b(caso|si|sino|elegir|defecto|mientras|repetir|desde|funcion|fun|osi)\\b((?!fin).)*$|\\{\\s*$",
+		"increaseIndentPattern": "\\b(caso|si|sino|elegir|defecto|otro|mientras|repetir|desde|funcion|fun|osi)\\b((?!fin).)*$|\\{\\s*$",
 		"decreaseIndentPattern": "^\\s*(caso|fin|sino|osi,?|\\}\\)?).*$"
 	}
 }

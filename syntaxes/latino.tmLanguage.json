@@ -12,7 +12,7 @@
             "begin": "/\\*",
             "end": "\\*/",
             "description": "Linea de comentario multiple"
-        },{
+        }, {
             "name": "invalid.illegal.latino",
             "begin":"(\"|'|\\(|{|\\[)<\\w>+$",
             "end": "(?!\\))|$|\\n",
@@ -27,7 +27,7 @@
             "end": "'"
         }, {
             "name": "keyword.control.logic.latino",
-            "match": "&&|\\|\\||!"
+            "match": "&&|\\|\\||!|!="
         }, {
             "name": "invalid.illegal.latino",
             "match": "=(\\+|-|\\*|\\/|%|\\^|!|<|>|~)|===",
@@ -41,10 +41,10 @@
             "description": "Marcador de numeros"
         }, {
             "name": "keyword.control.latino",
-            "match": "(incluir|retorno|retornar)"
+            "match": "(incluir|retorno|retornar|ret|error|romper|continuar)"
         }, {
             "name": "constant.language.latino",
-            "match": "(escribir|imprimir|poner)"
+            "match": "(escribir|imprimir|poner|imprimirf|global)"
         }, {
             "name": "constant.language.latino",
             "match": "(mate|sis|cadena|paquete|lista|gc|archivo|dic)(?=\\.)"
@@ -53,7 +53,7 @@
             "match": "\\b(verdadero|falso|cierto|nulo)\\b"
         }, {
             "name": "support.function.latino",
-            "match": "(sino|osi|si|fin|elegir|caso|defecto|repetir|desde|hasta|mientras|funcion|fun|ret|global)"
+            "match": "(sino|osi|si|fin|elegir|caso|defecto|otro|repetir|desde|hasta|mientras|funcion|fun)"
         }, {
             "name": "keyword.control.latino",
             "match": "(?!\\d)\\w+(?=\\s*(?:\\())",

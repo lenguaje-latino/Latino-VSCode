@@ -1,0 +1,3 @@
+- abril powershell
+- cd.. hasta el repositorio
+-- vsce package
