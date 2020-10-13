@@ -34,6 +34,13 @@
         ],
         "description": "Comando: Poner (Print)"
     },
+    "ImprimirF": {
+        "prefix": "impf",
+        "body": [
+            "imprimirf (\"${1:mensaje}\", $x)\n"
+        ],
+        "description": "Comando: Imprimirf (\"%s\\n\", variable)"
+    },
     "Si": {
         "prefix": "si",
         "body": [

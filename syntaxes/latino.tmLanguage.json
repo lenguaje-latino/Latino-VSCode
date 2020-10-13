@@ -1,7 +1,7 @@
 {
     "name": "Latino",
     "scopeName": "source.latino",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "patterns": [
         {
            "name": "comment.line.latino",
@@ -13,14 +13,14 @@
             "end": "\\*/",
             "description": "Linea de comentario multiple"
         }, {
+            "name": "string.quoted.double.latino",
+            "begin": "\"",
+            "end": "\""
+        }, {
             "name": "invalid.illegal.latino",
             "begin":"(\"|'|\\(|{|\\[)<\\w>+$",
             "end": "(?!\\))|$|\\n",
             "description": "Marcador de err de -Brackets"
-        }, {
-            "name": "string.quoted.double.latino",
-            "begin": "\"",
-            "end": "\""
         }, {
             "name": "string.quoted.single.latino",
             "begin": "'",
@@ -44,7 +44,7 @@
             "match": "(incluir|retorno|retornar|ret|error|romper|continuar)"
         }, {
             "name": "constant.language.latino",
-            "match": "(escribir|imprimir|poner|imprimirf|global)"
+            "match": "(escribir|imprimirf|imprimir|poner|global)"
         }, {
             "name": "constant.language.latino",
             "match": "(mate|sis|cadena|paquete|lista|gc|archivo|dic)(?=\\.)"
@@ -56,7 +56,7 @@
             "match": "(sino|osi|si|fin|elegir|caso|defecto|otro|repetir|desde|hasta|mientras|funcion|fun)"
         }, {
             "name": "keyword.control.latino",
-            "match": "(?!\\d)\\w+(?=\\s*(?:\\())",
+            "match": "(?!\\d|\\.)\\w+(?=\\s*(?:\\())",
             "description": "Marcador de nombre-de-funciones"
         }
     ]

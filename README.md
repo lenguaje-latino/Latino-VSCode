@@ -37,8 +37,9 @@ En VS Code para usar los snippets, escribimos el desencadenador deseado y presio
 | ret            | retorno                                 | retorno valor                                   |
 | esc            | escribir                                | escribir("mensaje")                             |
 | imp            | imprimir                                | imprimir("mensaje")                             |
+| impf           | imprimirf                               | imprimirf("%s\n", variable)                     |
 | inc            | incluir                                 | incluir "modulo"                                |
-| encabezado     | encabezado                              | genera un encabezado de código comentado                               |
+| encabezado     | encabezado                              | genera un encabezado de código comentado        |
 
 >Alternativamente, presione `Ctrl` +` Space` (Windows, Linux) o `Cmd` +` Space` (OSX) para activar los snippets desde el editor.
 
@@ -46,10 +47,15 @@ En VS Code para usar los snippets, escribimos el desencadenador deseado y presio
 Cualquier error lo puedes reportar en: https://github.com/MelvinG24/Latino-VS/issues
 
 # Documentación de Latino
-Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación oficial en el siguiente enlace: https://manual-latino.readthedocs.io/es/latest/
+Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación oficial en el siguiente enlace: https://manual-latino.readthedocs.io/
 
 # Versiones y Actualizaciones
 Cambios y Actualizaciones.
+
+## [1.0.2] - 13-Oct-2020
+### Actualizaciones
+- Arreglos minimos de errores en la sintaxis
+- Incorporación de nuevo snippets "impf" para el comado "imprimirf()"
 
 ## [1.0.1] - 5-Jul-2020
 ### Agregado

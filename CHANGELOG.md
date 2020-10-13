@@ -1,6 +1,11 @@
 # Versiones y Actualizaciones
 Cambios y Actualizaciones.
 
+## [1.0.2] - 13-Oct-2020
+### Actualizaciones
+- Arreglos minimos de errores en la sintaxis
+- Incorporación de nuevo snippets "impf" para el comado "imprimirf()"
+
 ## [1.0.1] - 5-Jul-2020
 ### Agregado
 - Arreglos minimos de errores en la sintaxis
