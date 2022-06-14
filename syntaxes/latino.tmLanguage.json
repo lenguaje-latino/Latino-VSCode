@@ -1,7 +1,7 @@
 {
     "name": "Latino",
     "scopeName": "source.latino",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "patterns": [
         {
            "name": "comment.line.latino",
@@ -53,7 +53,7 @@
             "match": "\\b(verdadero|falso|cierto|nulo)\\b"
         }, {
             "name": "support.function.latino",
-            "match": "(sino|osi|si|fin|elegir|caso|defecto|otro|repetir|desde|hasta|mientras|funcion|fun)"
+            "match": "(sino|osi|si|fin|elegir|caso|clase|defecto|otro|repetir|desde|hasta|mientras|funcion|fun)"
         }, {
             "name": "keyword.control.latino",
             "match": "(?!\\d|\\.)\\w+(?=\\s*(?:\\())",

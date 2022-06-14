@@ -13,8 +13,9 @@
         ["{", "}"],
         ["[", "]"],
         ["(", ")"],
-		{ "open": "\"", "close": "\""},
-		{ "open": "'", "close": "'"}
+        { "open": "\"", "close": "\""},
+        { "open": "'",  "close": "'"},
+        { "open": "/*", "close": "*/"}
     ],
     "surroundingPairs": [
         ["{", "}"],
@@ -23,8 +24,8 @@
         ["\"", "\""],
         ["'", "'"]
     ],
-	"indentationRules": {
-		"increaseIndentPattern": "\\b(caso|si|sino|elegir|defecto|otro|mientras|repetir|desde|funcion|fun|osi)\\b((?!fin).)*$|\\{\\s*$",
-		"decreaseIndentPattern": "^\\s*(caso|fin|sino|osi,?|\\}\\)?).*$"
-	}
+    "indentationRules": {
+        "increaseIndentPattern": "\\b(caso|clase|si|sino|elegir|defecto|otro|mientras|repetir|desde|funcion|fun|osi)\\b((?!fin).)*$|\\{\\s*$",
+        "decreaseIndentPattern": "^\\s*(caso|fin|sino|osi,?|\\}\\)?).*$"
+    }
 }

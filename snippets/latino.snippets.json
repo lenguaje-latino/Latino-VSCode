@@ -2,42 +2,42 @@
     "Retorno": {
         "prefix": "ret",
         "body": [
-            "retorno ${0:valor}\n"
+            "retorno ${0:valor}"
         ],
         "description": "Comando: Retorno (Return)"
     },
     "Incluir": {
         "prefix": "inc",
         "body": [
-            "incluir (\"${1:modulo}\")\n"
+            "incluir (\"${1:modulo}\")"
         ],
         "description": "Comando: Incluir (include)"
     },
     "Escribir": {
         "prefix": "esc",
         "body": [
-            "escribir (\"${1:mensaje}\")\n"
+            "escribir (\"${1:mensaje}\")"
         ],
         "description": "Comando: Escribir (Print)"
     },
     "Imprimir": {
         "prefix": "imp",
         "body": [
-            "imprimir (\"${1:mensaje}\")\n"
+            "imprimir (\"${1:mensaje}\")"
         ],
         "description": "Comando: Imprimir (Print)"
     },
     "Poner": {
         "prefix": "poner",
         "body": [
-            "poner (\"${1:mensaje}\")\n"
+            "poner (\"${1:mensaje}\")"
         ],
         "description": "Comando: Poner (Print)"
     },
     "ImprimirF": {
         "prefix": "impf",
         "body": [
-            "imprimirf (\"${1:mensaje}\", $x)\n"
+            "imprimirf (\"${1:mensaje}\", ${2:variable})"
         ],
         "description": "Comando: Imprimirf (\"%s\\n\", variable)"
     },
@@ -46,7 +46,7 @@
         "body": [
             "si ${1:condicion}",
             "\t${0:#codigo}",
-            "fin\n"
+            "fin"
         ],
         "description": "Condicional: Si (If)"
     },
@@ -59,7 +59,7 @@
             "\t${4:#codigo}",
             "sino",
             "\t${0:#codigo}",
-            "fin\n"
+            "fin"
         ],
         "description": "Condicional: O_Si (ElseIF)"
     },
@@ -70,7 +70,7 @@
             "\t${2:#codigo}",
             "sino",
             "\t${0:#codigo}",
-            "fin\n"
+            "fin"
         ],
         "description": "Condicional: Sino (Else)"
     },
@@ -79,7 +79,7 @@
         "body": [
             "desde (${1:inicio; condicion; incremento})",
             "\t${0:#codigo}",
-            "fin\n"
+            "fin"
         ],
         "description": "Condicional: Desde (For Loop)"
     },
@@ -88,7 +88,7 @@
         "body": [
             "mientras ${1:condicion}",
             "\t${0:#codigo}",
-            "fin\n"
+            "fin"
         ],
         "description": "Condicional: Mientras (While Loop)"
     },
@@ -97,7 +97,7 @@
         "body": [
             "repetir",
             "\t${1:#codigo}",
-            "hasta (${0:condicion})\n"
+            "hasta (${0:condicion})"
         ],
         "description": "Condicional: Repetir (Until Loop)"
     },
@@ -109,7 +109,7 @@
             "\tcaso ${3:#caso_2}:",
             "\tcaso ${4:#caso_3}:",
             "\tdefecto ${0:#Pre-definido}:",
-            "fin\n"
+            "fin"
         ],
         "description": "Condicional: Elegir (Switch Case)"
     },
@@ -118,7 +118,7 @@
         "body": [
             "funcion ${1:nombre_funcion}(${2:})",
             "\t${0:#codigo}",
-            "fin\n"
+            "fin"
         ],
         "description": "Comando: Funcion (Function)"
     },
@@ -130,7 +130,7 @@
             "# CREADO  : $CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR, $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
             "# VERSION : ${1:version}",
             "# AUTOR   : ${2:autor}",
-            "# OBJETIVO: ${3:objetivo}",            
+            "# OBJETIVO: ${3:objetivo}",
             "# DEPENDENCIAS: ",
             "#\t\t${4:dependencias}",
             "###############################################################################"
