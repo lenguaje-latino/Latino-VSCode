@@ -3,13 +3,14 @@
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/MelvinGuerrero.latino-vscode)
 ![GitHub](https://img.shields.io/github/license/melving24/latino-vscode)
 ---
-![Image](https://github.com/MelvinG24/Latino-VSCode/blob/master/.reademe/Latino-VSCodeInstall.gif?raw=true)
+![Image](https://github.com/MelvinG24/Latino-VSCode/blob/master/.readme/Latino-VSCodeInstall.gif?raw=true)
 
 # Sintaxis de Lenguaje Latino para VS Code
 Esta es la extensión oficial de Latino en Visual Studio Code.
 
 ## Caracteristicas
 * Resaltado de sintaxis de Latino (Syntax highlighting)
+* Ejecusion del código (Ctrl+Alt+R)
 * Snippets
 
 ## Requerimientos de extension
@@ -18,7 +19,7 @@ Esta es la extensión oficial de Latino en Visual Studio Code.
 # Funciones
 | Acción         | Función                                                                                   |
 |----------------|-------------------------------------------------------------------------------------------|
-| F5             | Ejecuta el código de Latino en la terminal (*Requiere primero guardar el archivo)         |
+| Ctrl+Alt+R     | Ejecuta el código de Latino en la terminal (*Requiere primero guardar el archivo)         |
 
 
 # Fargmentos de código (snippets)
@@ -47,32 +48,7 @@ En VS Code para usar los snippets, escribimos el desencadenador deseado y presio
 Cualquier error lo puedes reportar en: https://github.com/MelvinG24/Latino-VS/issues
 
 # Documentación de Latino
-Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación oficial en el siguiente enlace: https://manual-latino.readthedocs.io/
-
-# Versiones y Actualizaciones
-Cambios y Actualizaciones.
-
-## [1.0.2] - 13-Oct-2020
-### Actualizaciones
-- Arreglos minimos de errores en la sintaxis
-- Incorporación de nuevo snippets "impf" para el comado "imprimirf()"
-
-## [1.0.1] - 5-Jul-2020
-### Agregado
-- Arreglos minimos de errores en la sintaxis
-- Incorporación de nuevas palabras reservadas
-  - imprimirf
-  - romper
-  - continuar
-  - otro
-  - error
-  - ret
-
-## [1.0.0] - 5-Abr-2020
-### Agregado
-- Primera Versión
-- Creación de la sintaxis básica de Latino en VS Code
-- Coloreado de sintaxis y snippets de Latino
+Para aprender más sobre este maravilloso lenguaje de programación llamado Latino, puedes visitar la documentación oficial en el siguiente enlace: https://manual.lenguajelatino.org/
 
 # License
 Licenciado bajo la licencia [MIT](https://github.com/MelvinG24/Latino-VSCode/blob/master/LICENSE)
