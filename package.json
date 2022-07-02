@@ -2,28 +2,34 @@
     "name": "latino-vscode",
     "displayName": "%displayName%",
     "description": "%description%",
-    "version": "1.0.2",
+    "version": "%version%",
     "publisher": "MelvinGuerrero",
     "license": "MIT",
     "author": {
         "email": "melvin_guerrero@yahoo.com",
         "name": "Melvin Guerrero",
-        "url": "https://melvinguerrero.blogspot.com"
+        "url": "https://github.com/MelvinG24"
     },
-    "engines": { "vscode": "^1.0.0" },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
     "icon": "images/Latino-Logo.png",
-    "categories":[
+    "categories": [
+        "Programming Languages",
         "Debuggers",
         "Language Packs",
-        "Programming Languages",
-        "Snippets"
+        "Formatters",
+        "Snippets",
+        "Other"
     ],
     "keywords": [
         "latino",
         "lenguaje",
-        "language"
+        "languages",
+        "lenguaje latino",
+        "lenguaje-latino"
     ],
-    "galleryBanner":{
+    "galleryBanner": {
         "color": "#449eec",
         "theme": "dark"
     },
@@ -36,38 +42,167 @@
         "url": "https://github.com/MelvinG24/Latino-VSCode.git"
     },
     "homepage": "https://github.com/MelvinG24/Latino-VSCode",
+    "main": "./src/extension.js",
     "activationEvents": [
-        "onLanguage:latino"
+        "onLanguage:latino",
+        "onCommand:latino.correr",
+        "onCommand:latino.debug",
+        "onCommand:latino.config",
+        "workspaceContains:**/.latVSCodeConfig",
+        "workspaceContains:/.vscode/latino_properties.json"
     ],
-    "main": "./out/client/extension",
-    "scripts":{
-        "compile":"",
-        "vscode:uninstall": "node ./out/src/lifecycle"
-    },
     "contributes": {
-        "languages":
-        [
-            {
-                "id": "latino",
-                "extensions": [".lat"],
-                "aliases": ["Latino", "latino"],
-                "configuration": "language-configuration.json"
-            }
-        ],
-        "grammars":
-        [
+        "grammars": [
             {
                 "language": "latino",
                 "scopeName": "source.latino",
-                "path": "syntaxes/latino.tmLanguage.json"
+                "path": "./syntaxes/latino.tmLanguage.json"
             }
         ],
-        "snippets":
-        [
+        "snippets": [
             {
                 "language": "latino",
-                "path": "snippets/latino.snippets.json"
+                "path": "./snippets/latino.snippets.json"
             }
-        ]
+        ],
+        "commands": [
+            {
+                "command": "latino.config",
+                "title": "Configurar Latino",
+                "category": "Configuracion"
+            },
+            {
+                "command": "latino.debug",
+                "title": "Debugear Latino",
+                "category": "debuging"
+            },
+            {
+                "command": "latino.correr",
+                "title": "Correr Latino",
+                "category": "debugin",
+                "icon": "$(run)"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "latino.correr",
+                "key": "ctrl+alt+r",
+                "mac": "cmd+alt+r"
+            }
+        ],
+        "debuggers": [
+            {
+                "type": "latino",
+                "label": "Latino Debug",
+                "program": "C:/Program Files/Latino/bin/latino.exe",
+
+                "runtime": "latino.exe",
+                "languages": ["latino", "Latino"]
+            }
+        ],
+        "breakpoints": [
+            {
+                "language": "latino"
+            }
+        ],
+        "terminal": {
+            "profiles": [
+                {
+                    "id": "terminalTest.terminal-profile",
+                    "icon": "terminal",
+                    "title": "Latino Terminal"
+                }
+            ]
+        },
+        "menus": {
+            "editor/title": [
+                {
+                    "when": "resourceLangId == latino",
+                    "command": "latino.correr",
+                    "group": "navigation"
+                }
+            ]
+        },
+        "languages": [
+            {
+                "id": "latino",
+                "extensions": [
+                    ".lat"
+                ],
+                "aliases": [
+                    "latino",
+                    "Latino",
+                    "lenguaje latino",
+                    "lenguaje-latino"
+                ],
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "light": "./images/iconsFiles/icons/Lenguaje_Latino-Icon.svg",
+                    "dark": "./images/iconsFiles/icons/Lenguaje_Latino-Icon.svg"
+                }
+            }
+        ],
+        "walkthroughs": [
+            {
+                "id": "latino",
+                "title": "Empiece a utilizar Latino para VSCode",
+                "description": "De sus primeros pasos para configurar Latino en VSCode",
+                "steps": [
+                    {
+                        "id": "latinocorrer",
+                        "title": "Latino binario",
+                        "description": "Este paso es para configurar la ruta donde se ubica el binario de Latino en su sistema\n[Buscar Binario](command:latino.config)",
+                        "media": {
+                            "image": ".readme/Latino-VSCodeInstall.gif",
+                            "altText": "Latino_binario_img"
+                        }
+                    },
+                    {
+                        "id": "latinodoc",
+                        "title": "Documentación de Latino",
+                        "description": "Lee la documentación de Latino para guiarte en el uso de este lenguaje de programación\n[Documentación](command:latino.doc)",
+                        "media": {
+                            "markdown": ".readme/markdown.md"
+                        }
+                    }
+                ]
+            }
+        ],
+        "configuration": {
+            "title": "Lenguaje-Latino",
+            "properties": {
+                "Latino-propiedades.RutaBinarioLatino": {
+                    "type": "string",
+                    "description": "Especifique la ruta del binario de Latino en su sistema",
+                    "scope": "machine-overridable"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "lint": "eslint src --ext ts"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.0.0",
+        "@types/node": "^6.0.47",
+        "@typescript-eslint/eslint-plugin": "^5.19.0",
+        "@typescript-eslint/parser": "^5.19.0",
+        "eslint": "^8.13.0",
+        "@types/mocha": "^2.2.33",
+        "mocha": "^3.1.2"
+    },
+    "dependencies": {
+        "opener": "^1.4.2"
+    },
+
+
+    "__metadata": {
+        "id": "a00eade5-9de5-426e-9060-f6c2375cb8f0",
+        "publisherDisplayName": "Melvin Guerrero",
+        "publisherId": "558a8ac7-ee04-4398-b7e5-c43b7a51c3ae",
+        "isPreReleaseVersion": false
     }
 }
