@@ -31,8 +31,6 @@ function activate(context) {
         if (e.affectsConfiguration("Latino-propiedades.RutaBinarioLatino")) {
             ruta = vscode.workspace.getConfiguration().get("Latino-propiedades.RutaBinarioLatino");
             vscode.window.showInformationMessage("Latino-propiedades.RutaBinarioLatino: " + vscode.workspace.getConfiguration().get("Latino-propiedades.RutaBinarioLatino"));
-        } else {
-            vscode.window.showErrorMessage('Latino-propiedades.RutaBinarioLatino: vacia o invalida');
         }
     });
 
