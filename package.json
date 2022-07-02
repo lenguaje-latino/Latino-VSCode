@@ -178,19 +178,6 @@
             }
         }
     },
-    "devDependencies": {
-        "@types/mocha": "^2.2.33",
-        "@types/node": "^6.0.47",
-        "@types/vscode": "^1.0.0",
-        "@typescript-eslint/eslint-plugin": "^5.19.0",
-        "@typescript-eslint/parser": "^5.19.0",
-        "eslint": "^8.13.0",
-        "mocha": "^3.1.2"
-    },
-    "dependencies": {
-        "opener": "^1.4.2",
-        "vsce": "^2.9.2"
-    },
     "__metadata": {
         "id": "a00eade5-9de5-426e-9060-f6c2375cb8f0",
         "publisherDisplayName": "Melvin Guerrero",
