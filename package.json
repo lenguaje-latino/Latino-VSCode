@@ -153,7 +153,7 @@
                         "title": "Latino binario",
                         "description": "Este paso es para configurar la ruta donde se ubica el binario de Latino en su sistema\n[Buscar Binario](command:latino.config)",
                         "media": {
-                            "image": ".readme/Latino-VSCodeInstall.gif",
+                            "image": ".readme/buscarBinario.gif",
                             "altText": "Latino_binario_img"
                         }
                     },

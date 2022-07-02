@@ -3,7 +3,8 @@
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/MelvinGuerrero.latino-vscode)
 ![GitHub](https://img.shields.io/github/license/melving24/latino-vscode)
 ---
-![Image](https://github.com/MelvinG24/Latino-VSCode/blob/master/.readme/Latino-VSCodeInstall.gif?raw=true)
+<!-- ![Image](https://github.com/MelvinG24/Latino-VSCode/blob/master/.readme/Latino-VSCodeInstall.gif?raw=true) -->
+![Image](.readme/Latino-VSCodeInstall.gif)
 
 # Sintaxis de Lenguaje Latino para VS Code
 Esta es la extensión oficial de Latino en Visual Studio Code.
@@ -13,14 +14,19 @@ Esta es la extensión oficial de Latino en Visual Studio Code.
 * Ejecusion del código (Ctrl+Alt+R)
 * Snippets
 
+![Image](.readme/buscarBinario.gif)
+
 ## Requerimientos de extension
 * Se necesita tener Latino instalado para la función de "Ejecutar en la Terminal"
+
+![Image](.readme/terminalLatino.gif)
 
 # Funciones
 | Acción         | Función                                                                                   |
 |----------------|-------------------------------------------------------------------------------------------|
 | Ctrl+Alt+R     | Ejecuta el código de Latino en la terminal (*Requiere primero guardar el archivo)         |
 
+![Image](.readme/ejecutarLatino.gif)
 
 # Fargmentos de código (snippets)
 En VS Code para usar los snippets, escribimos el desencadenador deseado y presionamos TAB.
